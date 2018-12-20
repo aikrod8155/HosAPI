@@ -26,5 +26,6 @@ public class HosInitServlet extends HttpServlet{
 			dataService.init();
 			servletContext.setAttribute(CONTEXT_INIT, true);
 		}
+		
 	}
 }
